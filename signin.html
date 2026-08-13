@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-In</title>
+    <link rel="stylesheet" href="/assets/style/signinstyle.css">
+</head>
+<body>
+
+<div class="split">
+
+  <!-- Shown only on mobile: hamburger + brand + app grid icon -->
+  <header class="mobile-topbar">
+    <svg class="icon" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    <span class="brand">DataSync Pro</span>
+    <span class="app-grid">
+      <svg class="icon" viewBox="0 0 24 24">
+        <circle cx="6" cy="6" r="1.6"/><circle cx="12" cy="6" r="1.6"/><circle cx="18" cy="6" r="1.6"/>
+        <circle cx="6" cy="12" r="1.6"/><circle cx="12" cy="12" r="1.6"/><circle cx="18" cy="12" r="1.6"/>
+        <circle cx="6" cy="18" r="1.6"/><circle cx="12" cy="18" r="1.6"/><circle cx="18" cy="18" r="1.6"/>
+      </svg>
+      <span class="dot"></span>
+    </span>
+  </header>
+
+  <div class="split-media" role="img" aria-label="Team working together in a modern office"></div>
+
+  <section class="split-form">
+    <div class="form-wrap">
+      <h1>Sign In</h1>
+
+      <form action="#" method="post">
+        <div class="field">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="Email" required>
+        </div>
+
+        <div class="field">
+          <label for="password">Password</label>
+          <input id="password" name="password" type="password" placeholder="Password" required>
+        </div>
+
+        <label class="toggle-row">
+          <span class="switch">
+            <input type="checkbox" name="remember">
+            <span class="track"></span>
+          </span>
+          <span>Remember me</span>
+        </label>
+
+        <button class="btn-primary" type="submit">Sign In</button>
+
+        <div class="form-links">
+          <a href="#">Forgot password?</a>
+          <span class="muted">Don't have an account? <a href="signup.html">Sign Up</a></span>
+        </div>
+      </form>
+    </div>
+  </section>
+
+</div>
+
+</body>
+</html>
